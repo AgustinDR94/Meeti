@@ -1,0 +1,24 @@
+{
+  "name": "03-meeti",
+  "version": "1.0.0",
+  "description": "SASS",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css",
+    "build:sass": "purgecss -css build/css/style.css -con index.html -o build/css/meeti.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgustinDR94/Meeti.git"
+  },
+  "author": "Agustin Duron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgustinDR94/Meeti/issues"
+  },
+  "homepage": "https://github.com/AgustinDR94/Meeti#readme",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.52.1"
+  }
+}
